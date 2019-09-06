@@ -30,7 +30,8 @@ function getGift(val) {
     return gifts[6];
 }
 
-$('#turn-btn').on('click', function() {
+$('#turn-btn').on('click', function(e) {
+  e.preventDefault();
   currentDeg += Math.floor(Math.random() * 10000) + 500;
   turns = Math.floor((currentDeg - prevDeg) / 360);
   prevDeg = currentDeg;
