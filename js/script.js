@@ -5,12 +5,12 @@ var turns = 0;
 var transDuration = 3;
 const gifts = [
   'Yamaha Exciter 150GP 2025',
-  'Chúc bạn may mắn lần sau!',
-  '50.000 VND tặng vào VTC Pay',
+  'Chúc bạn may mắn lần sau1!',
+  '50.000 VND tặng vào VTC Pay1',
   'Xiaomi Redmi note14 128GB',
-  '100.000 VND tặng vào VTC Pay',
-  '500.000 VND tặng vào VTC Pay',
-  '20.000 VND tặng vào VTC Pay'
+  '100.000 VND tặng vào VTC Pay1',
+  '500.000 VND tặng vào VTC Pay1',
+  '20.000 VND tặng vào VTC Pay1'
 ];
 
 function getGift(val) {
