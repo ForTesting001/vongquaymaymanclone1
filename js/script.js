@@ -6,11 +6,11 @@ var transDuration = 3;
 const gifts = [
   'Yamaha Exciter 150GP 2025',
   'Chúc bạn may mắn lần sau1!',
-  '50.000 VND tặng vào VTC Pay1',
+  '50.000 VND tặng  VTC Pay1',
   'Xiaomi Redmi note14 128GB',
-  '100.000 VND tặng vào VTC Pay1',
-  '500.000 VND tặng vào VTC Pay1',
-  '20.000 VND tặng vào VTC Pay1'
+  '100.000 VND tặng  VTC Pay1',
+  '500.000 VND tặng  VTC Pay1',
+  '20.000 VND tặng  VTC Pay1'
 ];
 
 function getGift(val) {
@@ -45,7 +45,7 @@ $('#turn-btn').on('click', function(e) {
   setTimeout(() => {
     Swal.fire(
       getGift(currentDeg % 360),
-      'Phần thưởng',
+      'Phần thưởng123',
       'success'
     );
   }, transDuration * 1000 + 500);
